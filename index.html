@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ParticiBrol</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/screen.css">
+</head>
+<body>
+    <header>
+        <h1>Partici<span>Brol</span></h1>
+        <h2>Fire away, lads</h2>
+    </header>
+    <main>
+        <label for="name">ParticiPoll name <a onclick="alert('The username is the name in front of participoll.com. Example: dankmemes.participoll.com')" href="#">(?)</a></label>
+        <input type="text" id="name">
+        <label for="option">Option</label>
+        <select name="option" id="option">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+        </select>
+        <a href="#" id="fire">Fire!</a>
+        <a href="#" id="stop">Stop</a>
+        <p id="votessent">Votes sent: <span id="votecount">0</span></p>
+    </main>
+    <script src="http://yui.yahooapis.com/3.8.0/build/yui/yui-min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

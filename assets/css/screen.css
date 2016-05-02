@@ -1,0 +1,79 @@
+body {
+    background-color: #f8fff1;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    color: #4b4b4b;
+}
+
+header {
+    margin: 50px 0;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Niconne", sans-serif;
+}
+
+h1 > span {
+    font-weight: bold;
+}
+
+main {
+    width: 150px;
+    margin: 0 auto;
+}
+
+main label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+main label a {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #4a5edc;
+    text-decoration: none;
+}
+
+main input[type="text"], main select {
+    width: 100%;
+    box-sizing: border-box;
+    color: #565656;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #d0c9a5;
+    margin-bottom: 15px;
+}
+
+main a {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 2px 5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    width: 45%;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+
+main #fire {
+    background-color: #af0021;
+    float: left;
+}
+
+main #stop {
+    background-color: #a7a7a7;
+    float: right;
+}
+
+main #votessent {
+    text-align: center;
+}
